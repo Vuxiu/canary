@@ -61,8 +61,8 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-serverName = "OTServBR-Global"
-serverMotd = "Welcome to the OTServBR-Global!"
+serverName = "Rotten"
+serverMotd = "Welcome to the Rotten!"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 25
@@ -103,11 +103,11 @@ augmentStrongImpactPercent = 10
 -- NOTE: preyBonusTime: Time in seconds that players will have of prey bonus.
 -- NOTE: preyFreeRerollTime: Time in seconds that players will have to wait to get a new free prey list.
 preySystemEnabled = true
-preyFreeThirdSlot = false
-preyRerollPricePerLevel = 200
-preySelectListPrice = 5
+preyFreeThirdSlot = true
+preyRerollPricePerLevel = 1
+preySelectListPrice = 1
 preyBonusRerollPrice = 1
-preyBonusTime = 2 * 60 * 60
+preyBonusTime = 2 * 60 * 600
 preyFreeRerollTime = 20 * 60 * 60
 
 -- Task hunting system
@@ -115,7 +115,7 @@ preyFreeRerollTime = 20 * 60 * 60
 -- NOTE: taskHuntingRerollPricePerLevel: Price multiplier in gold coin for rerolling task hunting list.
 -- NOTE: taskHuntingFreeRerollTime: Time in seconds that players will have to wait to get a new free task hunting list.
 taskHuntingSystemEnabled = true
-taskHuntingFreeThirdSlot = false
+taskHuntingFreeThirdSlot = true
 taskHuntingLimitedTasksExhaust = 20 * 60 * 60
 taskHuntingRerollPricePerLevel = 200
 taskHuntingSelectListPrice = 5
@@ -397,7 +397,7 @@ maxMarketOffersAtATimePerPlayer = 100
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
 mysqlPass = "root"
-mysqlDatabase = "otservbr-global"
+mysqlDatabase = "rotten"
 mysqlPort = 3306
 mysqlSock = ""
 passwordType = "sha1"
